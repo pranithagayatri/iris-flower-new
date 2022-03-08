@@ -7,6 +7,8 @@ pl = st.slider('Petal Length', 1.0, 6.9, 0.5)
 pw = st.slider('Petal Width', 0.1,2.5, 0.5)
 
 from sklearn.datasets import load_iris
+
+
 iris = load_iris()
 
 from sklearn.tree import DecisionTreeClassifier
